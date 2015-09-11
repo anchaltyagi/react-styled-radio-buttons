@@ -1,0 +1,36 @@
+{
+  "name": "react-yes-no-radio-button",
+  "version": "1.0.0",
+  "description": "Y/N Styled Radio Button",
+  "main": "yesNoRadioComponent.jsx",
+  "style": "style.css",
+  "scripts": {
+    "example": "webpack -w -d",
+    "build": "babel yesNoRadioComponent.jsx --out-dir=lib --modules umd --module-id RadioGroup",
+    "dev": "webpack --watch"
+  },
+  "keywords": [
+    "radio",
+    "radio button",
+    "react radio",
+    "component",
+    "react",
+    "react-component"
+  ],
+  "author": "Anchal Tyagi",
+  "license": "MIT",
+  "devDependencies": {
+    "babel": "^4.7.16",
+    "babel-core": "^4.7.16",
+    "babel-loader": "^4.2.0",
+    "css-loader": "^0.9.1",
+    "mocha": "^2.2.1",
+    "react": "^0.13.0",
+    "style-loader": "^0.9.0",
+    "webpack": "^1.7.3",
+    "webpack-dev-server": "^1.7.0"
+  },
+  "dependencies": {
+    "classnames": "^1.2.0"
+  }
+}
